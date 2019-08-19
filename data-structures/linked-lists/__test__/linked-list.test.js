@@ -22,29 +22,29 @@ describe('validates the instanciation of an empty list', () => {
     const linkedList = new validator();
     expect(linkedList.insertAtHead(1).value).toEqual(1, 2, 3, 4, 5);
   });
-})
+});
 
 describe('validates values', () => {
   it('validates that will return true when finding a value within the linked list',
-      () => {
-        linkedList.insertAtHead(1);
-        linkedList.insertAtHead(666);
-        expect(linkedList.includes(1)).
-            toEqual(true);
-      });
+    () => {
+      linkedList.insertAtHead(1);
+      linkedList.insertAtHead(666);
+      expect(linkedList.includes(1)).
+        toEqual(true);
+    });
   it('validates that will return false  when looking for a value that doesnt exist',
-      () => {
-        expect(linkedList.includes(999)).
-            toEqual(false);
-      });
+    () => {
+      expect(linkedList.includes(999)).
+        toEqual(false);
+    });
 });
 describe('Creates a Collection', () => {
   const linkedList = new validator();
   linkedList.insertAtHead(5);
   linkedList.insertAtHead(33);
   linkedList.insertAtHead(22);
-it('can properly return all a collection of all values within the list', () => {
-  expect(linkedList.toString(validator)).toEqual(this.head);
-})
-})
+  it('can properly return all a collection of all values within the list', () => {
+    expect(linkedList.toString(validator)).toEqual(this.head);
+  });
+});
 
