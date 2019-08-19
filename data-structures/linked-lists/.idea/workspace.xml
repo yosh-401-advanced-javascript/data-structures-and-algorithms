@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9e2d0a5-9c83-42b3-8294-05528a71a1df" name="Default Changelist" comment="6">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__test__/linked-list.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked-lists.js" beforeDir="false" />
-    </list>
+    <list default="true" id="f9e2d0a5-9c83-42b3-8294-05528a71a1df" name="Default Changelist" comment="6" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +55,7 @@
       <workItem from="1566079748735" duration="984000" />
       <workItem from="1566173103187" duration="38000" />
       <workItem from="1566173161206" duration="178000" />
-      <workItem from="1566173382834" duration="12012000" />
+      <workItem from="1566173382834" duration="12213000" />
     </task>
     <servers />
   </component>
