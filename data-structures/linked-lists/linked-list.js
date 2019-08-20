@@ -52,8 +52,28 @@ class LinkedList {
       current = current.next;
     }
   }
+
+
+  appendRecursively(value) {
+    if (this.head === null) {
+      this.head = new Node(value);
+      return;
+    }
+      this.appendRecursivelyHelper(value, this.head);
+
+  }
+
+  appendRecursivelyHelper(value, current) {
+    if (current.next === null) {
+      current.next = new Node(value);
+      return;
+    }
+      this.appendRecursivelyHelper(value, current.next);
+
+  }
 }
 
-
 module.exports = LinkedList;
+
+
 

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9e2d0a5-9c83-42b3-8294-05528a71a1df" name="Default Changelist" comment="6">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__test__/linked-list-insert.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__test__/linked-list.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/linked-list.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package.json" afterDir="false" />
     </list>
@@ -38,6 +38,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
@@ -57,6 +58,49 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Jest.Can Successfully add a node to the end of the linked list.Can Successfully add a node to the end of the linked list">
+    <configuration name="Can Successfully add a node to the end of the linked list" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__test__/linked-list-insert.test.js" />
+      <test-names>
+        <test-name value="Can Successfully add a node to the end of the linked list" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Can Successfully add a node to the end of the linked list.Can Successfully add a node to the end of the linked list" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/linked-list-insert.test.js" />
+      <test-names>
+        <test-name value="Can Successfully add a node to the end of the linked list" />
+        <test-name value="Can Successfully add a node to the end of the linked list" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="linked-list-insertions.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="linked-list-insertions.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="linked-list.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="linked-list.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Can Successfully add a node to the end of the linked list.Can Successfully add a node to the end of the linked list" />
+        <item itemvalue="Jest.Can Successfully add a node to the end of the linked list" />
+        <item itemvalue="Node.js.linked-list.js" />
+        <item itemvalue="Node.js.linked-list-insertions.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -71,7 +115,8 @@
       <workItem from="1566173103187" duration="38000" />
       <workItem from="1566173161206" duration="178000" />
       <workItem from="1566173382834" duration="12501000" />
-      <workItem from="1566242342497" duration="287000" />
+      <workItem from="1566242342497" duration="561000" />
+      <workItem from="1566259546030" duration="13296000" />
     </task>
     <servers />
   </component>

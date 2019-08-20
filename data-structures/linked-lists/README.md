@@ -1,22 +1,25 @@
-# Singly Linked List
-Create and Test Singly Linked Lists
+# Linked List Insertions
+Create and Test Linked List Insertions
 
 ## Challenge
 The challenge was to build out a linked list and then test for:
-1. Can it successfully instantiate an empty linked list.
-2. Can it properly insert into the linked list.
-3. Will the head property point to the first node in the linked list.
-4. Can it properly insert multiple nodes into the linked list.
-5. It will return true when find a value within the linked list.
-6. It will return false if it cant find a value in the linked list.
-7. It will properly return a collection of all values within the linked list.
-
+1. Can successfully add a node to the end of the linked list
+2. Can successfully add multiple nodes to the end of a linked list
+3. Can successfully insert a node before a node located i the middle of a linked list
+4. Can successfully insert a node before the first node of a linked list
+5. Can successfully insert after a node in the middle of the linked list
+6. Can successfully insert a node after the last node of the linked list
 ## Approach & Efficiency
-The approach taken was to analyze the demo code, and find the logic that would move us forward, along with 
-looking up and reading more about linked lists and their creation. I believe it is O(1).
+My first approach was to rewatch the demos from class and apply them to what I already knew. I knew nothing.
+First i built out the recursive function, hoping that I would be able to eventually get to the other parts of the 
+challenge. The function works fine, but whenever i try and test anything with it, I cant get them to pass. 
+Ive tried to insert at the head, but I mostly get undefined or null, and cant seem to figure out the logic behind the
+issues. 
+
+Looking at my solution I see quite a few errors. They'll need to mended before I give this another go.
 
 ## API
 N/A
 
-## Contributors
-Lillian Gales
+## Solution
+![White Board](/assets/IMG_0581.jpg)
