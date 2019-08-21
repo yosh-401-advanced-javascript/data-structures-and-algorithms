@@ -85,7 +85,7 @@ describe('Finds node Kth from the end', ()  => {
     linkedList.insertAtHead(6);
     linkedList.insertAtHead(7);
     linkedList.insertAtHead(8);
-    expect(linkedList.findFromEnd(4)).toEqual(8);
+    expect(linkedList.findFromEnd(1)).toEqual(8);
   });
 });
 
