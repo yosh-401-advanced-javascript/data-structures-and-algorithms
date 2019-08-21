@@ -59,7 +59,7 @@ class LinkedList {
       this.head = new Node(value);
       return;
     }
-      this.appendRecursivelyHelper(value, this.head);
+    this.appendRecursivelyHelper(value, this.head);
 
   }
 
@@ -68,9 +68,24 @@ class LinkedList {
       current.next = new Node(value);
       return;
     }
-      this.appendRecursivelyHelper(value, current.next);
+    this.appendRecursivelyHelper(value, current.next);
 
   }
+
+
+  findFromEnd(k) {
+    let fast = 0;
+    let slow = k - 1;
+    let current = this.head;
+    while (current !== null){
+      fast++;
+      slow++;
+      current = current.next;
+    }
+    return slow;
+  }
+
+
 }
 
 module.exports = LinkedList;
