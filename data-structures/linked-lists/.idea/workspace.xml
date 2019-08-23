@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9e2d0a5-9c83-42b3-8294-05528a71a1df" name="Default Changelist" comment="6">
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__test__/linked-list-insert.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/linked-list-insert.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -112,7 +111,7 @@
       <workItem from="1566173382834" duration="12501000" />
       <workItem from="1566242342497" duration="561000" />
       <workItem from="1566259546030" duration="13818000" />
-      <workItem from="1566359813416" duration="4902000" />
+      <workItem from="1566359813416" duration="5612000" />
     </task>
     <servers />
   </component>
