@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9e2d0a5-9c83-42b3-8294-05528a71a1df" name="Default Changelist" comment="6">
+      <change afterPath="$PROJECT_DIR$/../stacks-and-queues/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stacks-and-queues/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stacks-and-queues/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stacks-and-queues/.idea/stacks-and-queues.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stacks-and-queues/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stacks-and-queues/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stacks-and-queues/__test__/stacks-and-queues.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stacks-and-queues/stacks-and-queues.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +121,9 @@
       <workItem from="1566242342497" duration="561000" />
       <workItem from="1566259546030" duration="13818000" />
       <workItem from="1566359813416" duration="5612000" />
+      <workItem from="1566796328187" duration="1369000" />
+      <workItem from="1566797716245" duration="503000" />
+      <workItem from="1566798231317" duration="854000" />
     </task>
     <servers />
   </component>
