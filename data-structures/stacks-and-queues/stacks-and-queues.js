@@ -18,14 +18,14 @@ class Node {
 }
 
 class Stack {
-  constructor(top) {
+  constructor( ) {
     this.top = null;
   }
 
-  push(item) {
-    let node = new Node(item);
+  push( item ) {
+    let node = new Node( item );
 
-    if (this.top) {
+    if ( this.top ) {
       node.next = this.top;
       this.top = node;
     } else {
@@ -45,7 +45,7 @@ class Stack {
 }
 
 class Queue {
-  constructor( front ) {
+  constructor(  ) {
     this.front = null;
     this.back = null;
   }
