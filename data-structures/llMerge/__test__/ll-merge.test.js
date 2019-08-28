@@ -76,20 +76,6 @@ describe('TESTING LINKED LIST MERGES!!!', () => {
     expect(toArray(head1.head)).toEqual([1, 'a', 2, 'b', 3, 'c', 'd', 'elephant']);
   });
 
-  test('Checking functionality if list 1 is null', () => {
-    let head1 = new LinkedList();
-    let head2 = new LinkedList();
-    head2.insertAtHead('elephant');
-    head2.insertAtHead('d');
-    head2.insertAtHead('c');
-    head2.insertAtHead('b');
-    head2.insertAtHead('a');
-
-    mergeLists(head1.head, head2.head);
-    console.log(toArray(head1.head));
-    expect(toArray(head1.head)).toEqual(['a', 'b', 'c', 'd', 'elephant']);
-  });
-
 });
 
 
