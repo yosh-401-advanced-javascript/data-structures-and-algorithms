@@ -14,12 +14,12 @@ class PseudoQueue {
 
   dequeue(){
 
-    if(this.stackOutput === null) {
+    if(this.stackOutput.peek() === null) {
       while( this.stackInput.peek()) {
         this.stackOutput.push(this.stackInput.pop());
       }
     }
-    // return this.stackOutput.pop();
+    return this.stackOutput.pop();
   }
 }
 
