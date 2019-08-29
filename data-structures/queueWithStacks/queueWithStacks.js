@@ -14,7 +14,7 @@ class PseudoQueue {
 
   dequeue(){
 
-    if(this.stackOutput.peek() === null) {
+    if(this.stackOutput.peek() === undefined) {
       while( this.stackInput.peek()) {
         this.stackOutput.push(this.stackInput.pop());
       }

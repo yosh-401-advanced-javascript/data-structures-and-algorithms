@@ -34,6 +34,9 @@ class Stack {
   }
 
   peek() {
+    if(this.top === null){
+      return undefined;
+    }
     return this.top.data;
   }
 
@@ -80,6 +83,7 @@ class Queue {
 }
 
 module.exports = {
+  Node: Node,
   Stack: Stack,
   Queue: Queue,
 };
