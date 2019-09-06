@@ -1,13 +1,15 @@
-# Find the Leaves of a Tree
-Find the individual leaves of a binary tree
+# Find the path length on a tree
+Find the path length on a tree
 
 ## Challenge
-Find the leaves of a binary tree with the best efficiency
+Find the path length on a binary tree recursively
 
 ## Approach & Efficiency
-The approach was to recursively traverse a binary tree and once a node was found, that had no left or right branches, 
-push that into the stack. Because of this, the root would have been pushed first, and then the leaves. 
-Froze up on code writing.
+The idea was to traverse the tree, left to right until the parent was
+found. Once the parent was found, it would be pushed to the stack.
+After that the next nodes would be pushed into the stack until the 
+child was found. That would be pushed in and then return the 
+length of the stack minus 1 to account for the extra node.
 
 O(n)
 O(h)
@@ -16,4 +18,4 @@ O(h)
 ## API
 No API's were harmed in the making of this challenge.
 
-[whiteboard](assets/IMG_4343.HEIC)
+[whiteboard](assets/IMG_6795.HEIC)
