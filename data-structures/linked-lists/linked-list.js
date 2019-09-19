@@ -6,6 +6,8 @@ class Node {
   constructor(value) {
     this.value = value;
     this.next = null;
+    this.previous = null;
+
   }
 }
 
@@ -53,7 +55,6 @@ class LinkedList {
     }
   }
 
-
   appendRecursively(value) {
     if (this.head === null) {
       this.head = new Node(value);
@@ -72,12 +73,11 @@ class LinkedList {
 
   }
 
-
   findFromEnd(k) {
     let fast = 0;
     let slow = k - 1;
     let current = this.head;
-    while (current !== null){
+    while (current !== null) {
       fast++;
       slow++;
       current = current.next;
@@ -86,6 +86,20 @@ class LinkedList {
   }
 
 
+
+  removeDuplicate(value) {
+
+    const map = new Map();
+
+    let current = this.head;
+    while (current) {
+      current = this.next;
+      map.get(current.value);
+    }
+    while (map.has(current.value)) {
+      current = current.next.next;
+    }
+  }
 }
 
 module.exports = LinkedList;
