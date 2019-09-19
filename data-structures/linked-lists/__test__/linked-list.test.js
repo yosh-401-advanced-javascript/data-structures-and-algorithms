@@ -1,6 +1,9 @@
 'use strict';
 
 let validator = require('../linked-list');
+require('../removeDuplicate');
+
+
 const linkedList = new validator;
 describe('validates the instanciation of an empty list', () => {
   it('validates the instantiation of an empty list', () => {
