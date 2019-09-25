@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9e2d0a5-9c83-42b3-8294-05528a71a1df" name="Default Changelist" comment="6">
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hash/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__test__/linked-list.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/linked-list.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/linked-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../llMerge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../llMerge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../multiBracketValidation/multi-bracket-validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/../multiBracketValidation/multi-bracket-validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.idea/trees.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/assets/IMG_4343.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/assets/IMG_6795.HEIC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/tree-leaf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/tree-leaf/.idea/trees.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/tree-path-length.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/tree-path-length/.idea/tree-path-length.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trees/tree-path-length/__test__/count-path.test.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +131,15 @@
       <workItem from="1566242342497" duration="561000" />
       <workItem from="1566259546030" duration="13818000" />
       <workItem from="1566359813416" duration="5612000" />
+      <workItem from="1566796328187" duration="1369000" />
+      <workItem from="1566797716245" duration="503000" />
+      <workItem from="1566798231317" duration="854000" />
+      <workItem from="1566806611536" duration="958000" />
+      <workItem from="1566850945299" duration="204000" />
+      <workItem from="1566851161585" duration="536000" />
+      <workItem from="1566929114389" duration="153000" />
+      <workItem from="1566929401693" duration="5112000" />
+      <workItem from="1568865421751" duration="3496000" />
     </task>
     <servers />
   </component>
