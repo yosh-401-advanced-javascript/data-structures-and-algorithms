@@ -1,20 +1,19 @@
-#Find the Max Value in a Binary Tree
+#Find the intersection and union between two binary trees
 
 ## Challenge
-To find the maximum value of a node in a binary tree.
+find the union and intersection between two binary trees.
 
 ## Approach & Efficiency
-The goal here was to traverse the tree and look at the next node. If the next node was
-less than the value of the next node, we would move to that node,
-until we found the hight value. After analyzing the left side of the
-tree, we would have a look at the right side of the tree, do the same thing
-and compare values. 
+My idea here was to traverse each binary tree. Once at the leaf
+of the first tree, I would travel back up the tree, inserting the values
+into a new map. The next tree would be traversed and its values would
+also be added to a new map. I would then compare the two objects and 
+discern whether or not there were intersecting values. 
 
-I havnt gotten around to testing yet, but I think the issue with my code
-thus far is: as soon as I find a value bigger than the node that im in,
-I move to the right tree and start comparing.
+Due to time constraints the code was never finished. I understand
+what needs to be done, I THINK.
 
 
 ## Solution
 
-![UML](/assets/IMG_1490.HEIC)
+![UML](/assets/IMG_4351.HEIC)
